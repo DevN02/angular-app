@@ -1,0 +1,24 @@
+.edit-product-form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    padding: 20px; /* Add padding around the form */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .edit-product-form h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    color: #1976d2; /* Primary color */
+    text-align: center; /* Center the title */
+  }
+  
+  mat-form-field {
+    margin-bottom: 16px; /* Space between form fields */
+  }
+  
+  button {
+    align-self: flex-end; /* Align the button to the end */
+    margin-top: 20px; /* Space above the button */
+    font-weight: bold; /* Make button text bold */
+  }
